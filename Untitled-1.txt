@@ -1,0 +1,108 @@
+elements:
+    <tag>content</tag>
+
+    opening tag: <tag>
+    closing tag: </tag>
+
+Structure:
+    DOCTYPE
+    html
+        head
+        body
+
+
+style:
+    display:
+        inline(default):
+            - Not able to set height/width
+            - Collapses on itself
+            - Elements are side by side to each other
+        block:
+            - Are able to set height/width
+            - Takes full width of parent element
+        inline-block:
+            - Are able to set height/width
+            - Does not take up full width of parent
+            - Elements are side by side to each other
+    width:
+        Adjusts width of the element
+            values: 
+                Percent (%): sets the width according parent element using percents
+                pixels (px): sets the width using screen pixels
+    height:
+        Adjusts height of the element
+            values: 
+                Percent (%): sets the height according parent element using percents
+                pixels (px): sets the height using screen pixels
+    color:
+        Changes color of text within self/children/grandchildren
+            values:
+                hsl:
+                hsla:
+                rgb:
+                rgba:
+                hex:
+                predefined colors: 
+                    red/blue/lightblue/etc
+    background: 
+        background-color
+        background-image
+        background-position
+        background-size
+        background-repeat
+        background-origin
+        background-clip
+        background-attachment
+    font:
+        font-style:
+            normal
+            italic
+            oblique
+        font-variant
+        font-weight
+            normal/bold/bolder/lighter
+            100/200/300/400/500/600/700/800/900
+        font-size/line-height
+            px
+            em
+            rem
+            %
+        font-family: Arial, Helvetica, sans-serif;
+                    (main), (    if main fails   )
+    padding: top right bottom left
+        padding-top
+        padding-right
+        padding-bottom
+        padding-left
+    margin: top right bottom left
+            %/px/auto (centers horizontally)
+        margin-top
+        margin-right
+        margin-bottom
+        margin-left
+    border: width type color
+        width: px
+        type: dotted solid double dashed
+        color
+    border-top: width type color
+        width: px
+        type: dotted solid double dashed
+        color
+    border-right: width type color
+        width: px
+        type: dotted solid double dashed
+        color
+    border-bottom: width type color
+        width: px
+        type: dotted solid double dashed
+        color
+    border-left: width type color
+        width: px
+        type: dotted solid double dashed
+        color
+    border-radius: px/%/em/etc
+        Curveness of the corners
+    box-shadow: x-axis y-axis blur-amount spread color
+
+    text-align:
+        left / right/ center/ justify

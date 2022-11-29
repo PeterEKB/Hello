@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+    <body>
+    </body>
+</html>
+
+
+
+
+
+custom element:
+    void of any styles
+
+div:
+    block
+    width -> 100%
+
+h1 - h6:
+    bold text
+    bigger fonts
+    
+i:
+    italices
+
+strong:
+    bold

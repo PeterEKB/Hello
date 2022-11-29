@@ -1,0 +1,130 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nerko One', 'Rubik Microbe', 'Times New Roman', Times, serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#background img {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+#midground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+
+#content {
+  width: fit-content;
+  border: 5px solid red;
+  margin: auto;
+}
+#header{
+  width: 516px;
+  height: 385px;
+  padding: 50px;
+  border: 5px solid blue;
+}
+#mainImage {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  box-shadow: 0px 4px 4px hsl(0, 0%, 0%, .25);
+  margin: auto;
+}
+#greeting {
+  width: 150px;
+  height: 35px;
+  background-color: red;
+  box-shadow: 0px 4px 4px hsl(0, 0%, 0%, .25);
+  margin: 16px auto;
+}
+#social {
+  width: 516px;
+  border: 5px solid orangered;
+}
+.button {
+  display: block;
+  width: 380px;
+  padding: 10px 0;
+  margin: 20px auto;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px ;
+  box-shadow: 0px 2px 2px hsla(0, 0%, 0%, .7) ;
+}
+#social .icons {
+  color: green;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+.button:hover {
+  background-color: red;
+}
+
+/* inline {
+  display: inline;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: aqua;
+}
+#margin {
+  display: block;
+  width: 1000px;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: orange;
+}
+#border {
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+  background-color: grey;
+}
+#padding {
+  width: 90%;
+  height: 80%;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+#content {
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+  background-color: purple;
+}
+.button {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid red;
+  background-color: lightblue;
+  box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 30%);
+  border-radius: 10px;
+  margin: auto;
+} */
